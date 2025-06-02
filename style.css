@@ -1,0 +1,178 @@
+body {
+	background-color: #B0B16C; 
+	font-family: jura; 
+	margin: 0px;
+	
+	
+}
+header {
+	background-color: #D9DB83; 
+	height: 150px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	
+}
+main {
+	
+	
+	
+}
+footer {
+	
+	background-color: #000000; 
+	color: #ffffff; 
+	padding: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+header a {
+	background-color: #56790A;	
+	color: #FFFFFF;
+	text-decoration: none;
+ 	padding: 10px;
+	font-family: Inknut Antiqua;
+	border-radius: 15px;
+}
+h1 {
+	color: #56790A;
+	font-size: 70px;
+	text-align: center; 
+	font-family: Inknut Antiqua;
+}
+.salon {
+	height: 2100px;
+}
+.salon div {
+	display: flex;
+}
+.salon img {
+	width: 40%;
+	margin: 50px auto 50px auto;
+}
+.foto {
+	position: relative;
+	left: 30%;
+	bottom: 1400px;
+	
+} 
+.masters {
+	text-align: center;
+}
+
+.masters div {
+	display: flex;
+	justify-content: space-evenly;
+	
+}
+.masters img {
+	height: 450px;
+	border-radius: 20px;
+	width: 360px;
+}
+	
+.serveces {
+	font-family: Inknut Antiqua;
+	padding-left: 150px;
+	padding-right: 150px;
+	
+}
+.serveces img {
+	border-radius: 20px;
+	display: block;
+	width: 90%;
+	height: 500px;
+}
+.serveces div {
+	display: flex;
+} 
+.serveces article {
+	width: 33%;
+	
+} 
+.price {
+	padding-left: 150px;
+	padding-right: 150px;
+	text-align: center;
+	
+}
+table {
+	margin: 20px auto 20px auto;
+}
+td {
+	padding-left: 20px;
+	padding-right: 20px;
+} 
+.action {
+	background-color: #EBC4C5;
+	margin-left: 0px;
+}
+.action img {
+	width: 25%;
+	height: 450px;
+}
+
+.action p {
+	width: 25%;
+	text-align: center; 
+	padding-top: ;
+	padding-bottom: ;
+	color: #B66667;
+}
+.action div{
+	display: flex;
+	align-items: center;
+}
+.reviews article {
+	background-color: #EBC4C5;
+	width: 70%;
+	margin: 20 auto 20 auto;
+	padding: 30px;
+	border-radius: 30px;
+}
+
+.reviews article {
+	display: flex;
+	margin-top: 60px;
+}
+.reviews div {
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: center;
+}
+
+form {
+	margin: 40px auto 40px auto;
+	text-align: center;
+	background-color: #ffffff;
+	width: 600px;
+	border-radius: 30px;
+	padding: 20px;
+	
+}
+button {
+	background-color: pink;
+	margin-top: 20px;
+	border: none;
+	font-size: 15px;
+    border-radius: 30px;
+	width: 200px;
+	height: 50px;
+	font-family: jura; 
+} 
+
+input[type=text] {
+    background-color: #AFEEEE; 
+    border-radius: 30px;
+}
+input[type=tel] {
+	background-color: #AFEEEE; 
+    border-radius: 30px;
+}
+textarea {
+	background-color: #AFEEEE; 
+    border-radius: 30px;
+	padding: 20px;
+	font-family: jura; 
+}
